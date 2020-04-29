@@ -10,7 +10,7 @@ graph_format
 yoko=173.8; % ウィンドウ幅（単位はmm）
 tate=yoko/2; % ウィンドウ高さ（単位はmm）
 
-% 卒論の図の横幅は173.8 mmでした（人による）
+% 私の卒論の図の横幅は173.8 mmでした（人による）
 
 %% 以下，windowsかMacかでコメントアウト
 % windowsの場合 96 pix =1 inch= =25.4 mmなので
@@ -27,4 +27,4 @@ legend('1','2','3','4','5','6')
 
 myfigure(yoko,tate)
 plot(rand(6))
-legend('1','2','3','4','5','6')
+legend('a','b','c','d','e','f')
